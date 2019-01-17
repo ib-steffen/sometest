@@ -1,0 +1,17 @@
+{
+    "jobs": [
+        {
+            "build_only": false, 
+            "docker_file": "infrabox/test/Dockerfile", 
+            "name": "test", 
+            "resources": {
+                "limits": {
+                    "cpu": 1, 
+                    "memory": 1024
+                }
+            }, 
+            "type": "docker"
+        }
+    ], 
+    "version": 1
+}
